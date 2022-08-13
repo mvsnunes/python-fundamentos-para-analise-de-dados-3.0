@@ -26,21 +26,21 @@ while(1):
 
     if(op == '0'):
         break
-    if(op == '1'):
+    elif(op == '1'):
         a = int(input("First number: "))
         b = int(input("Second number: "))
         print("\n", a, " + ", b, " = ", add(a, b), "\n")
-    if(op == '2'):
+    elif(op == '2'):
         a = int(input("First number: "))
         b = int(input("Second number: "))
         print("\n", a, " - ", b, " = ", sub(a, b), "\n")
-    if(op == '3'):
+    elif(op == '3'):
         a = int(input("First number: "))
         b = int(input("Second number: "))
         print("\n", a, " * ", b, " = ", mult(a, b), "\n")
-    if(op == '4'):
+    elif(op == '4'):
         a = int(input("First number: "))
         b = int(input("Second number: "))
         print("\n", a, " / ", b, " = ", div(a, b), "\n")
-    if(op != '1' and op != '2' and op != '3' and op != '4' and op != '0'):
+    else:
         print("\nInvalid operation!\n")
