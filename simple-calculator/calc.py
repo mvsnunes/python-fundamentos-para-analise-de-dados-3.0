@@ -1,3 +1,6 @@
+# basic calculator (4 operations with menu) proposed on course: Python Fundamentos Para Análise de Dados 3.0
+
+
 # defining the basic operations
 
 def add(a, b): return a+b
